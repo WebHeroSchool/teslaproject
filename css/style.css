@@ -1,58 +1,69 @@
 
-.body{
+.body {
   max-width: 1440px;
   background: white;
   margin: 0 60px 24px 42.72px;
   font-family: "Montserrat";
-  color:#000000;
+  color: #000000;
 }
-.header{
+
+.header {
   display: flex;
   justify-content: space-between;
   height: 109px;
   align-items: center;
 }
-.header__img{
+
+.header__img {
   display: block;
 }
-.bloks-1{
-  flex-grow: 0.05;
+
+.bloks-1 {
+  flex-grow: .05;
 }
-.bloks-2{
-  flex-grow: 0.35;
+
+.bloks-2 {
+  flex-grow: .35;
 }
-.bloks-3{
-  flex-grow: 0.065;
+
+.bloks-3 {
+  flex-grow: .065;
 }
-.car__title{
+
+.car__title {
   text-align: center;
   font-weight: 600;
   font-size: 90px;
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 0;
   font-slyle: normal;
 }
-.car__subtitle{
+
+.car__subtitle {
   text-align: center;
   font-weight: 500;
   font-style: normal;
   font-size: 15px;
   margin-top: 0;
 }
-.car__tsl{
+
+.car__tsl {
   display: block;
   height: 450px;
   margin: auto;
 }
-.car{
+
+.car {
   background: url('../IMG/tesla bgr.png') no-repeat;
   height: 100%;
 }
-.header__menu{
+
+.header__menu {
   display: flex;
   justify-content: space-evenly;
 }
-.header__menu_link{
+
+.header__menu_link {
   color: #000000;
   font-style: normal;
   font-weight: 600;
@@ -60,89 +71,104 @@
   text-decoration: none;
   line-height: 18px;
 }
-.header__menu_link-red{
-color: #e51937;
-text-decoration: underline;
+
+.header__menu_link-red {
+  color: #e51937;
+  text-decoration: underline;
 }
-.link__img{
+
+.link__img {
   display: block;
 }
-.link__item{
+
+.link__item {
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
 }
-.link{
+
+.link {
   display: flex;
   justify-content: space-between;
-  widht: 203px;
 }
-.welcome-page{
+
+.welcome-page {
   display: flex;
   justify-content: space-evenly;
   border: 5px solig red;
 }
-.welcome-page__block{
+
+.welcome-page__block {
   display: flex;
   align-items: center;
 }
-.discrip{
+
+.discrip {
   margin-left: 13px;
   display: flex;
   flex-direction: column;
 }
-.welcome-page__speed-sec{
+
+.welcome-page__speed-sec {
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
 }
-span{
+
+span {
   font-size: 20px;
   line-height: 24px;
 }
-.welcome-page__speed-km{
+
+.welcome-page__speed-km {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
 }
 
-.welcome-page__speed-car{
+.welcome-page__speed-car {
   width: 46px;
   height: 34.13px;
 }
-.welcome-page__driver-max{
+
+.welcome-page__driver-max {
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
 }
-.welcome-page__driver-go{
+
+.welcome-page__driver-go {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
 }
-.welcome-page__button-image{
+
+.welcome-page__button-image {
   display: block;
   width: 22px;
   height: 22px;
 }
-.welcome-page__button{
+
+.welcome-page__button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.welcome-page__test-drive{
+
+.welcome-page__test-drive {
   margin-left: 11px;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
   line-height: 16px;
 }
-.welcome-page__footer{
+
+.welcome-page__footer {
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -155,10 +181,9 @@ span{
   justify-content: center;
 
 }
-.welcome-page__footer-btn{
+.welcome-page__footer-btn {
   text-decoration: none;
 }
 
-.arrow{
-  text-align: center;
-}
+.arrow {
+  text-align: center;}
