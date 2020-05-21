@@ -32,11 +32,12 @@
 
 .car__title {
   text-align: center;
+  font-slyle: normal;
   font-weight: 600;
   font-size: 90px;
   margin-top: 0;
   margin-bottom: 0;
-  font-slyle: normal;
+
 }
 
 .car__subtitle {
@@ -179,8 +180,8 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
+
 .welcome-page__footer-btn {
   text-decoration: none;
 }
