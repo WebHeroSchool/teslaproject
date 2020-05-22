@@ -4,7 +4,7 @@
   background: white;
   margin: 0 60px 24px 42.72px;
   font-family: "Montserrat";
-  color: #000000;
+  color: #000;
 }
 
 .header {
@@ -186,4 +186,4 @@ span {
 }
 
 .arrow {
-  text-align: center;}
+  text-align: center; }
