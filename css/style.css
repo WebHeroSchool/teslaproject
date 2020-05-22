@@ -3,7 +3,7 @@
   max-width: 1440px;
   background: white;
   margin: 0 60px 24px 42.72px;
-  font-family: "Montserrat";
+  font-family: "Montserrat, sans-serif";
   color: #000;
 }
 
@@ -186,4 +186,5 @@ span {
 }
 
 .arrow {
-  text-align: center; }
+  text-align: center;
+}

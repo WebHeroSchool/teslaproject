@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat, sans-serif";
   src:
     url("../fonts/Montserrat-Bold.eot"),
     url("../fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
@@ -9,7 +9,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat, sans-serif";
   src:
     url("../fonts/Montserrat-Medium.eot"),
     url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"),
@@ -19,7 +19,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat, sans-serif";
   src:
     url("../fonts/Montserrat-Regular.eot"),
     url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
@@ -29,11 +29,12 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat, sans-serif";
   src:
     url("../fonts/Montserrat-SemiBold.eot"),
     url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Montserrat-SemiBold.woff") format("woff"),
     url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
   font-weight: 600;
-  font-style: normal; }
+  font-style: normal;
+}
