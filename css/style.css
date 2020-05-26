@@ -1,7 +1,7 @@
 
 .body {
   max-width: 1440px;
-  background: white;
+
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   color: #000;
@@ -45,11 +45,11 @@
 }
 
 .bloks-2 {
-flex-grow: .35;
+width: 39%;
 }
 
 .bloks-3 {
-  flex-grow: .03;
+  width: 15%;
 }
 
 .link__item{
@@ -64,13 +64,18 @@ flex-grow: .35;
   font-size: 15px;
   line-height: 18px;
 }
+.car{
+  height: 650px;
+
+  background: url('../IMG/tesla-png-tesla-png-hd-1636.png') center no-repeat;
+  background-size: 968px auto;
+}
 
 .car__title {
   text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 90px;
-  margin-top: 64px;
   margin-bottom: 0;
 
 }
@@ -81,3 +86,4 @@ flex-grow: .35;
   font-size: 15px;
   margin-top: 0;
   }
+
