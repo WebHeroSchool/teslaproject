@@ -1,10 +1,8 @@
 .body {
   max-width: 1440px;
-
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   color: #000;
-
 }
 
 .header {
@@ -29,10 +27,10 @@
   transition-duration: .2s, .2s;
   transition-property: color, text-decoration;
 }
+
 .header__menu_link:hover{
   color: #e51937;
   text-decoration: underline;
-
 }
 
 .header__menu {
@@ -46,9 +44,11 @@
   text-underline-position: under;
   transition-duration: .2s;
 }
+
 .header__menu_link-red:hover{
   font-size: 20px;
 }
+
 .bloks-1 {
   flex-grow: .05;
 }
@@ -61,27 +61,31 @@ width: 39%;
   width: 15%;
 }
 
-.link__item{
+.link__item {
   display: block;
   transition-duration: .2s, .2s;
   transition-property: color, text-decoration;
 }
+
 .link__item:hover{
   color: #e51937;
   text-decoration: underline;
   cursor: pointer;
 }
-.link__img{
+
+.link__img {
   width: 24px;
   height: 15px;
   transition-duration: .3s, .3s;
   transition-property: widht, height;
 }
+
 .link__img:hover{
   width: 34px;
   height: 25px;
   cursor: pointer;
 }
+
 .link {
   display: flex;
   justify-content: space-between;
@@ -91,15 +95,16 @@ width: 39%;
   line-height: 18px;
 }
 
-
 .car__title {
   text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 90px;
+  line-height: 110px;
   margin-bottom: 0;
   margin-top: 60px;
 }
+
 .car__subtitle {
   position: relative;
   bottom: 11px;
@@ -129,93 +134,95 @@ width: 39%;
   justify-content: space-evenly;
 }
 
-.welcome-page__1{
+.welcome-page__1 {
   display: flex;
   justify-content: space-between;
-
   width: 41%;
 }
 
 .welcome-page__2{
   display: flex;
   justify-content: space-between;
-
 }
 
-.welcome-page__block{
+.welcome-page__block {
   display: flex;
-margin-left: 14px;
+  margin-left: 14px;
 }
-.welcome-page__driver{
+
+.welcome-page__driver {
   margin-right: 20px;
 }
-.discrip{
+
+.discrip {
   display: flex;
   flex-direction: column;
 }
-.welcome-page__speed-sec{
+
+.welcome-page__speed-sec {
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
-
 }
-span{
+
+span {
   font-size: 20px;
   line-height: 24px;
   font-style: normal;
   font-weight: 600;
-  padding-left: px;
-
 }
 
-.welcome-page__speed-km{
+.welcome-page__speed-km {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   text-align: left;
-
 }
 
-.welcome-page__speed-car{
+.welcome-page__speed-car {
 padding: 12px 10px 0 0;
 }
-.welcome-page__driver_img{
+
+.welcome-page__driver_img {
   margin-top: 10px;
   margin-right: 9px;
 }
-.welcome-page__driver-max{
+
+.welcome-page__driver-max {
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
+  padding-right: 8px;
+}
 
-}
-.discrip-wrap{
-margin-left: px;
-}
-.welcome-page__driver-go{
+.welcome-page__driver-go {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
 }
-.welcome-page__button-image{
-  display: block;
 
+.welcome-page__button-image {
+  display: block;
 }
+
+
 .welcome-page__button-image:hover{
   width: 20px;
   height: 13px;
 }
-.welcome-page__button{
+
+.welcome-page__button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-right: 37px;
 }
-.welcome-page__test-drive{
+
+.welcome-page__test-drive {
   margin-left: 5px;
   font-style: normal;
   font-weight: bold;
@@ -223,13 +230,14 @@ margin-left: px;
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .welcome-page__test-drive:hover{
   color: #e51937;
   text-decoration: underline;
   cursor: pointer;
 }
-.welcome-page__footer{
 
+.welcome-page__footer{
   border: 2px solid #e51937;
   width: 160px;
   height: 40px;
@@ -239,7 +247,8 @@ margin-left: px;
   margin-right: 12px;
   margin-top: 10px;
 }
-.welcome-page__footer-btn{
+
+.welcome-page__footer-btn {
   text-decoration: none;
   color: #e51937;
   font-style: normal;
@@ -249,27 +258,12 @@ margin-left: px;
   text-transform: uppercase;
 }
 
-
-
 .welcome-page__footer-btn:hover{
   font-size: 18px;
   text-decoration: underline;
 }
-.arrow{
+
+.arrow {
   text-align: center;
   margin-top: 24px;
-  color: t;
 } 
-
-﻿@media (max-width: 768px){
-   .header {
-      height: 155px;
-      box-sizing: border-box;
-    }
-   .header__menu {
-      display: none;
-    }
-
-}
-
-
