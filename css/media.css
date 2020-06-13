@@ -187,7 +187,7 @@
     font-size: 10px;
     line-height: 12px;
   }
-  
+
   .welcome-page__driver-go {
     font-size: 10px;
     line-height: 12px;
@@ -250,7 +250,7 @@
   .welcome-page__button-image {
     width: 71%;
     margin-bottom: 4px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .welcome-page__footer-btn {
