@@ -29,7 +29,7 @@
     padding-left: 16px;
   }
 
-  .car{
+  .car {
     background-size: 109%;
     background-position: 15% 50%;
   }
@@ -66,8 +66,8 @@
   }
 
   .discrip-mob {
-  margin-top: 2px;
-  margin-left: 38px;
+    margin-top: 2px;
+    margin-left: 38px;
   }
 
   .discrip-sek {
@@ -91,9 +91,9 @@
     bottom: 7px;
     left: 6px;
   }
-  
+
   .welcome-page__driver-go {
-margin-top: -2px;
+    margin-top: -2px;
   }
   
   .welcome-page__2 {
@@ -101,9 +101,11 @@ margin-top: -2px;
   }
   
   .welcome-page__test-drive {
-  font-size: 16px;
-  line-height: 20px;
-  color: #e51937;
+    font-size: 16px;
+    line-height: 20px;
+    color: #e51937;
+    margin-left: 15px;
+    margin-top: 3px;
   }
   
   .welcome-page__footer-btn {
@@ -125,19 +127,13 @@ margin-top: -2px;
     margin-top: 10px;
   }
   
-  .welcome-page__test-drive {
-    margin-left: 15px;
-    margin-top: 3px;
-  }
-  
   .arrow {
     margin-top: 63px;
-}
-  
+  }
 }
   
 @media (max-width: 375px) {
-  .header{
+  .header {
     margin: 5px 21px 0 2px;
     padding: 0;
   }
@@ -195,6 +191,7 @@ margin-top: -2px;
   .welcome-page__driver-go {
     font-size: 10px;
     line-height: 12px;
+    margin-top: 0px;
   }
   
   .welcome-page__driver-max {
@@ -230,16 +227,12 @@ margin-top: -2px;
   
   .welcome-page__drive_img {
     display: block;
-    margin-top: 0px;
+    margin-top: 0;
     width: 55%;
     margin-right: 0;
     padding: 2px 0 0 1px;
     position: relative;
     left: 7px;
-  }
-  
-  .welcome-page__driver-go {
-    margin-top: 0px;
   }
   
   .km {
@@ -283,11 +276,4 @@ margin-top: -2px;
     margin-left: 4px;
   }
   
-  }
-
-
-
-
-
-
-
+}

@@ -28,7 +28,7 @@
   transition-property: color, text-decoration;
 }
 
-.header__menu_link:hover{
+.header__menu_link:hover {
   color: #e51937;
   text-decoration: underline;
 }
@@ -45,7 +45,7 @@
   transition-duration: .2s;
 }
 
-.header__menu_link-red:hover{
+.header__menu_link-red:hover {
   font-size: 20px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .bloks-2 {
-width: 39%;
+  width: 39%;
 }
 
 .bloks-3 {
@@ -67,7 +67,7 @@ width: 39%;
   transition-property: color, text-decoration;
 }
 
-.link__item:hover{
+.link__item:hover {
   color: #e51937;
   text-decoration: underline;
   cursor: pointer;
@@ -80,7 +80,7 @@ width: 39%;
   transition-property: widht, height;
 }
 
-.link__img:hover{
+.link__img:hover {
   width: 34px;
   height: 25px;
   cursor: pointer;
@@ -113,7 +113,7 @@ width: 39%;
   font-style: normal;
   font-size: 15px;
   margin-top: 0;
-  }
+}
 
 .car {
   background: url('../IMG/Tesla-Wordmark-Red.png') no-repeat;
@@ -127,7 +127,7 @@ width: 39%;
   right: 35px;
 }
 
-.welcome-page{
+.welcome-page {
   width: 70%;
   margin: 0 auto;
   display: flex;
@@ -140,7 +140,7 @@ width: 39%;
   width: 41%;
 }
 
-.welcome-page__2{
+.welcome-page__2 {
   display: flex;
   justify-content: space-between;
 }
@@ -182,7 +182,7 @@ span {
 }
 
 .welcome-page__speed-car {
-padding: 12px 10px 0 0;
+  padding: 12px 10px 0 0;
 }
 
 .welcome-page__driver_img {
@@ -209,8 +209,7 @@ padding: 12px 10px 0 0;
   display: block;
 }
 
-
-.welcome-page__button-image:hover{
+.welcome-page__button-image:hover {
   width: 20px;
   height: 13px;
 }
@@ -231,13 +230,13 @@ padding: 12px 10px 0 0;
   text-transform: uppercase;
 }
 
-.welcome-page__test-drive:hover{
+.welcome-page__test-drive:hover {
   color: #e51937;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.welcome-page__footer{
+.welcome-page__footer {
   border: 2px solid #e51937;
   width: 160px;
   height: 40px;
@@ -258,7 +257,7 @@ padding: 12px 10px 0 0;
   text-transform: uppercase;
 }
 
-.welcome-page__footer-btn:hover{
+.welcome-page__footer-btn:hover {
   font-size: 18px;
   text-decoration: underline;
 }
@@ -266,4 +265,4 @@ padding: 12px 10px 0 0;
 .arrow {
   text-align: center;
   margin-top: 24px;
-} 
+}
