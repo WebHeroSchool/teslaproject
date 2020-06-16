@@ -227,7 +227,7 @@ span {
   margin-right: 37px;
 }
 
-.welcome-page__button:hover{
+.welcome-page__button:hover {
   height: 105%;
 }
 
@@ -272,7 +272,7 @@ span {
   line-height: 16px;
   background: white;
   text-transform: uppercase;
-  transition-duration: .5s,.5s;
+  transition-duration: .5s, .5s;
   transition-property: background, color;
 }
 
