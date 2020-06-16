@@ -1,3 +1,47 @@
+@media (max-width: 1220px) {
+  .welcome-page {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1036px) {
+  .header__menu_link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .link__item {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 856px) {
+  .header__menu_link {
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  .welcome-page__speed-car {
+    width: 80%;
+  }
+
+  .welcome-page__speed-sec {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .link__item {
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  .welcome-page__block {
+    width: 50%;
+    margin: 0;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     box-sizing: border-box;
@@ -50,6 +94,10 @@
     width: 100%;
   }
 
+  .welcome-page__block {
+    margin-left: 16%;
+  }
+
   .welcome-page__speed-sec {
     font-size: 50px;
     line-height: 61px;
@@ -78,7 +126,7 @@
   }
 
   .welcome-page__driver {
-    margin-right: 30px;
+    margin-left: -4%;
   }
 
   .welcome-page__drive_img {
@@ -112,23 +160,53 @@
     font-size: 16px;
     line-height: 20px;
     color: #fff;
+    background: #e51937;
   }
 
   .welcome-page__footer {
     background: #e51937;
     border: 0;
-    width: 220.84px;
+    width: 29%;
     height: 55.21px;
-    margin-right: 54px;
+    margin-right: 22%;
   }
 
   .welcome-page__button {
-    margin-left: 64px;
-    margin-top: 10px;
+    margin-left: 23%;
+    margin-top: 2%;
+    margin-right: 0;
   }
 
   .arrow {
     margin-top: 63px;
+  }
+}
+
+@media (max-width: 600px) {
+  .welcome-page__footer {
+    margin-right: 3%;
+  }
+
+  .welcome-page__button {
+    margin-left: 3%;
+  }
+
+  .welcome-page__block {
+    margin-left: 3%;
+  }
+}
+
+@media (max-width: 475px) {
+  .welcome-page__speed-sec {
+    font-size: 30px;
+  }
+
+  .welcome-page__driver-max {
+    font-size: 30px;
+  }
+
+  .discrip-mob {
+    margin-left: 10%;
   }
 }
 

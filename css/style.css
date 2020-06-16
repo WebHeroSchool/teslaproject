@@ -19,6 +19,7 @@
 .header__menu_link {
   display: block;
   color: #000;
+  margin-left: 3%;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -40,9 +41,10 @@
 
 .header__menu_link-red {
   color: #e51937;
-  text-decoration: underline;
+  border-bottom: 2px solid red;
   text-underline-position: under;
   transition-duration: .2s;
+
 }
 
 .header__menu_link-red:hover {
@@ -63,6 +65,7 @@
 
 .link__item {
   display: block;
+  margin-left: 3%;
   transition-duration: .2s, .2s;
   transition-property: color, text-decoration;
 }
@@ -76,13 +79,13 @@
 .link__img {
   width: 24px;
   height: 15px;
-  transition-duration: .3s, .3s;
+  transition-duration: .5s,.5s;
   transition-property: widht, height;
 }
 
 .link__img:hover {
-  width: 34px;
-  height: 25px;
+  width: 28px;
+  height: 19px;
   cursor: pointer;
 }
 
@@ -118,6 +121,7 @@
 .car {
   background: url('../IMG/Tesla-Wordmark-Red.png') no-repeat;
   margin-bottom: 29px;
+  background-size: 100%;
 }
 
 .car__tsl {
@@ -125,11 +129,13 @@
   margin: 0 auto;
   position: relative;
   right: 35px;
+  width: 67%;
 }
 
 .welcome-page {
   width: 70%;
   margin: 0 auto;
+  text-align: center;
   display: flex;
   justify-content: space-evenly;
 }
@@ -183,11 +189,13 @@ span {
 
 .welcome-page__speed-car {
   padding: 12px 10px 0 0;
+  width: 89%;
 }
 
 .welcome-page__driver_img {
   margin-top: 10px;
   margin-right: 9px;
+  width: 89%;
 }
 
 .welcome-page__driver-max {
@@ -210,8 +218,7 @@ span {
 }
 
 .welcome-page__button-image:hover {
-  width: 20px;
-  height: 13px;
+  width: 110%;
 }
 
 .welcome-page__button {
@@ -219,6 +226,10 @@ span {
   justify-content: space-evenly;
   align-items: center;
   margin-right: 37px;
+}
+
+.welcome-page__button:hover{
+  height:  105%;
 }
 
 .welcome-page__test-drive {
@@ -232,7 +243,6 @@ span {
 
 .welcome-page__test-drive:hover {
   color: #e51937;
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -245,6 +255,13 @@ span {
   justify-content: center;
   margin-right: 12px;
   margin-top: 10px;
+  background: white;
+  transition-duration: .5s;
+  transition-property: background;
+}
+
+.welcome-page__footer:hover {
+  background: red;
 }
 
 .welcome-page__footer-btn {
@@ -254,12 +271,16 @@ span {
   font-weight: bold;
   font-size: 13px;
   line-height: 16px;
+  background: white;
   text-transform: uppercase;
+  transition-duration: .5s,.5s;
+  transition-property: background, color;
 }
 
 .welcome-page__footer-btn:hover {
   font-size: 18px;
-  text-decoration: underline;
+  background: red;
+  color: white;
 }
 
 .arrow {
