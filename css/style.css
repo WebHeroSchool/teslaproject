@@ -44,7 +44,6 @@
   border-bottom: 2px solid red;
   text-underline-position: under;
   transition-duration: .2s;
-
 }
 
 .header__menu_link-red:hover {
@@ -79,7 +78,7 @@
 .link__img {
   width: 24px;
   height: 15px;
-  transition-duration: .5s,.5s;
+  transition-duration: .5s, .5s;
   transition-property: widht, height;
 }
 
@@ -229,7 +228,7 @@ span {
 }
 
 .welcome-page__button:hover{
-  height:  105%;
+  height: 105%;
 }
 
 .welcome-page__test-drive {
