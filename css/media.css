@@ -17,10 +17,24 @@
   }
 }
 
+@media (max-width: 960px) {
+  .car {
+    background-position-x: -40px;
+  }
+}
+
 @media (max-width: 856px) {
   .header__menu_link {
     display: none;
   }
+
+.welcome-page {
+  justify-content: center;
+}
+
+.welcome-page__1 {
+  margin-right: 25px;
+}
 
   .welcome-page__speed-car {
     width: 80%;

@@ -21,6 +21,7 @@
 }
 
 .header__menu_link {
+  padding-bottom: 5px;
   display: block;
   color: #000;
   margin-left: 3%;
@@ -35,7 +36,7 @@
 
 .header__menu_link:hover {
   color: #e51937;
-  text-decoration: underline;
+  border-bottom: 2px solid red;
 }
 
 .header__menu {
@@ -64,6 +65,7 @@
 }
 
 .link__item {
+  padding-bottom: 5px;
   display: block;
   margin-left: 3%;
   transition-duration: .2s, .2s;
@@ -72,7 +74,7 @@
 
 .link__item:hover {
   color: #e51937;
-  text-decoration: underline;
+  border-bottom: 2px solid red;
   cursor: pointer;
 }
 
@@ -247,28 +249,17 @@ span {
   color: #e51937;
   cursor: pointer;
 }
-
 .welcome-page__footer {
-  border: 2px solid #e51937;
-  width: 49%;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 3.5%;
-  margin-top: 2.4%;
-  background: white;
-  transition-duration: .5s;
-  transition-property: background;
-}
-
-.welcome-page__footer:hover {
-  background: red;
+  margin-top: 10px;
 }
 
 .welcome-page__footer-btn {
+  border: 2px solid #e51937;
+  padding: 12px 41px;
+  display: block;
   text-decoration: none;
   color: #e51937;
+  align-items: center;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -279,10 +270,11 @@ span {
   transition-property: background, color;
 }
 
-.welcome-page__footer-btn:hover {
-  font-size: 18px;
-  background: red;
+.welcome-page__footer-btn:hover{
+  font-size: 15px;
+  background-color: red;
   color: white;
+
 }
 
 .arrow {
