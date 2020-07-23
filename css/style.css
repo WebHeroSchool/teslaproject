@@ -271,7 +271,7 @@ span {
   transition-property: background, color;
 }
 
-.welcome-page__footer-btn:hover{
+.welcome-page__footer-btn:hover {
   font-size: 15px;
   background-color: red;
   color: white;
