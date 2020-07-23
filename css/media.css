@@ -89,7 +89,7 @@
     display: block;
   }
 
-  .welcome-page__block{
+  .welcome-page__block {
     width: auto;
   }
 
@@ -189,7 +189,6 @@
   .arrow {
     margin-top: 63px;
   }
-
 }
 
 @media (max-width: 600px) {
@@ -227,18 +226,17 @@
   .discrip-sek {
     bottom: 0;
   }
-   .km{
-     bottom: 0;
-   }
-
- }
+  .km {
+    bottom: 0;
+  }
+}
 
 @media (max-width: 404px) {
   .welcome-page__section {
     margin-right: 24px;
-   }
+  }
 
- }
+}
 
 @media (max-width: 375px) {
   .header {
