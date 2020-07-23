@@ -28,13 +28,13 @@
     display: none;
   }
 
-.welcome-page {
-  justify-content: center;
-}
+  .welcome-page {
+    justify-content: center;
+  }
 
-.welcome-page__1 {
-  margin-right: 25px;
-}
+  .welcome-page__1 {
+    margin-right: 25px;
+  }
 
   .welcome-page__speed-car {
     width: 80%;
@@ -217,7 +217,6 @@
   .welcome-page__block {
     margin-left: 3%;
   }
-
 }
 
 @media (max-width: 520px) {
