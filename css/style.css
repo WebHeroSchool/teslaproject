@@ -124,7 +124,6 @@
 
 .car {
   background: url('../IMG/Tesla-Wordmark-Red.png') no-repeat top center;
-  background-size: cover;
   margin-bottom: 2.3%;
   background-size: auto 80%;
 }
@@ -235,7 +234,7 @@ span {
   align-items: center;
 }
 
-.welcome-page__button:hover > .welcome-page__button-image{
+.welcome-page__button:hover > .welcome-page__button-image {
   background-image: url(../IMG/red.jpg);
 }
 
