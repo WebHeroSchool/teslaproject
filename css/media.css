@@ -19,13 +19,16 @@
 
 @media (max-width: 960px) {
   .car {
-    background-position-x: -40px;
+    background-position-x: -50px;
   }
 }
 
 @media (max-width: 856px) {
   .header__menu_link {
     display: none;
+  }
+  .link__img {
+    margin-left: auto;
   }
 
   .welcome-page {
@@ -36,13 +39,8 @@
     margin-right: 25px;
   }
 
-  .welcome-page__speed-car {
-    width: 80%;
-  }
-
-  .welcome-page__speed-sec {
-    font-size: 28px;
-    line-height: 33px;
+  .welcome-page__button {
+    margin-right: 15px;
   }
 
   .link-none {
@@ -114,6 +112,7 @@
   }
 
   .welcome-page__button-image {
+    background-image: url(../IMG/red.jpg);
     width: 30px;
     height: 30px;
   }
@@ -190,7 +189,6 @@
   .welcome-page__footer {
     background: #e51937;
     border: 0;
-    width: 29%;
     height: 55.21px;
     margin-right: 0;
   }
