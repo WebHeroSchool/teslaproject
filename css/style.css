@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+.header {
+  margin: 1.7% 3.8% 0 2.8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__img {
+  display: block;
+}
+
+.header__menu_link {
+  padding-bottom: 5px;
+  display: block;
+  color: #000;
+  margin-left: 3%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 18px;
+  transition: all .2s;
+  transition-property: color, text-decoration;
+}
+
+.header__menu_link:hover {
+  color: #e51937;
+  border-bottom: 2px solid red;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__menu_link-red {
+  padding-bottom: 5px;
+  color: #e51937;
+  border-bottom: 2px solid red;
+  text-underline-position: under;
+  transition-duration: .2s;
+}
+
+.header__menu_link-red:hover {
+  font-size: 20px;
+}
+
+.bloks-2 {
+  width: 39%;
+}
+
+.bloks-3 {
+  width: 15%;
+}
+
+.link__item {
+  padding-bottom: 5px;
+  display: block;
+  margin-left: 3%;
+  transition-duration: .2s, .2s;
+  transition-property: color, text-decoration;
+}
+
+.link__item:hover {
+  color: #e51937;
+  border-bottom: 2px solid red;
+  cursor: pointer;
+}
+
+.link__img {
+  width: 24px;
+  height: 15px;
+  padding-bottom: 0;
+  transition-duration: .5s, .5s;
+  transition-property: widht, height;
+}
+
+.link__img:hover {
+  width: 28px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.car__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 110px;
+  margin-bottom: 0;
+  margin-top: 60px;
+}
+
+.car__subtitle {
+  position: relative;
+  bottom: 11px;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.car {
+  background: url('../IMG/Tesla-Wordmark-Red.png') no-repeat top center;
+  margin-bottom: 2.3%;
+  background-size: auto 80%;
+}
+
+.car__tsl {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 2%;
+  width: 67%;
+}
+
+.welcome-page {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.welcome-page__1 {
+  display: flex;
+  justify-content: space-between;
+  width: 41%;
+}
+
+.welcome-page__2 {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.welcome-page__block {
+  display: flex;
+  margin-left: 3.1%;
+}
+
+.welcome-page__driver {
+  margin-right: 4%;
+}
+
+.discrip {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.welcome-page__speed-sec {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+span {
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.welcome-page__speed-km {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.welcome-page__speed-car {
+  padding: 13% 11% 0 0;
+}
+
+.welcome-page__driver_img {
+  margin-top: 10px;
+  margin-right: 9px;
+  width: 89%;
+}
+
+.welcome-page__driver-max {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+  padding-right: 8px;
+}
+
+.welcome-page__driver-go {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.welcome-page__button-image {
+  width: 22px;
+  height: 22px;
+  background-image: url(../IMG/black.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-page__button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.welcome-page__button:hover > .welcome-page__button-image {
+  background-image: url(../IMG/red.jpg);
+}
+
+.welcome-page__test-drive {
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.welcome-page__button:hover > .welcome-page__test-drive {
+  color: #e51937;
+  cursor: pointer;
+}
+
+.welcome-page__footer {
+  margin-top: 10px;
+}
+
+.welcome-page__footer-btn {
+  border: 2px solid #e51937;
+  padding: 12px 41px;
+  display: block;
+  text-decoration: none;
+  color: #e51937;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  background: white;
+  text-transform: uppercase;
+  transition-duration: .5s, .5s;
+  transition-property: background, color;
+}
+
+.welcome-page__footer-btn:hover {
+  font-size: 15px;
+  background-color: red;
+  color: white;
+}
+
+.arrow {
+  text-align: center;
+  margin-top: 24px;
+}

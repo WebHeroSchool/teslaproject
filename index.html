@@ -2,56 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Tesla</title>
 </head>
-<body>
-    <header clacc="header">
-        <img class="header__img" src="IMG/Tesla-Wordmark-Red.png" alt="">
+<body class="body">
+  <header class="header">
+    <div class="bloks blocks-1">
+      <img class="header__img" src="./IMG/logo.png" alt="">
+    </div>
+      <div class="bloks bloks-2">
         <nav class="header__menu">
-            <a class="header__menu_link header__menu_link-red" href="#">Model S</a>
-            <a class="header__menu_link" href="#">Model X</a>
-            <a class="header__menu_link" href="#">Model 3</a>
-            <a class="header__menu_link" href="#">Roadster</a>
-            <a class="header__menu_link" href="#">Energy</a>
+          <a class="header__menu_link header__menu_link-red" href="#">Model S</a>
+          <a class="header__menu_link" href="#">Model X</a>
+          <a class="header__menu_link" href="#">Model 3</a>
+          <a class="header__menu_link" href="#">Roadster</a>
+          <a class="header__menu_link" href="#">Energy</a>
         </nav>
-        <div class=link>
-           <a class="link__item">Магазин</a> /*исправила тег див на ссылку*/
-           <a class="link__link">Войти</a>
-           <img class="link__img"src="IMG/Vector11.png" alt="">
+      </div>
+      <div class="bloks bloks-3 menu-burger">
+        <div class="link">
+          <a class="link__item link-none">Магазин</a>
+          <a class="link__item link-none">Войти</a>
+          <img class="link__item link__img"src="./IMG/menu.png" alt="">
         </div>
-    </header>
-       <section class="car">
-         <h1 class="car__title">Model S</h1>
-         <h2 class="car__subtitle">Добро пожаловать в будущее!</h2>
-         <img class="car__tesla"src="IMG/Tesla-Wordmark-Red.png" alt="">
-         <img class="car__tsl" src="IMG/tesla-png-tesla-png-hd-1636.png" alt="">
-       </section>
-       <section class="welcome-page">
-          <div class="welcome-page__block">
-            <div class="welcome-page__speed">
-              <img class="welcome-page__speed-car" src="IMG/Vector.png" alt="">
-            </div>
-            <div class="welcome-page__speed-sec">2,7 сек</div>
-            <div class="welcome-page__speed-km">0-100 км/ч</div>
+      </div>
+  </header>
+  <section class="car">
+    <h1 class="car__title">Model S</h1>
+    <h2 class="car__subtitle">Добро пожаловать в будущее!</h2>
+    <img class="car__tsl" src="./IMG/tesla-png-tesla-png-hd-1636.png" alt="">
+  </section>
+  <section class="welcome-page">
+    <div class="welcome-page__1">
+      <div class="welcome-page__block welcome-page__section">
+        <div class="welcome-page__speed">
+          <img class="welcome-page__speed-car" src="./IMG/speeds.png" alt="">
+        </div>
+        <div class="discrip discrip-mob">
+          <div class="welcome-page__speed-sec">2,7<span class="discrip-sek"> сек</span>
           </div>
-          <div class="welcome-page__driver">
-            <img class="welcome-page__driver_img" src="IMG/Vector (Stroke).png" alt="">
-            <div class="welcome-page__driver-max">632 км</div>
-            <div class="welcome-page__driver-go">запас хода</div>
+          <div class="welcome-page__speed-km">0-100 км/час
           </div>
-          <div class="welcome-page__button">
-            <img class="welcome-page__button-image" src="IMG/Vector12.png" alt="">
-            <div class="welcome-page__test-drive">тест драйв</div>
+        </div>
+      </div>
+      <div class="welcome-page__driver welcome-page__block">
+        <picture>
+          <source class="source" srcset="IMG/way-icon.png" media="(max-width: 768px)">
+          <img class="welcome-page__drive_img" src="./IMG/Road icon.png" alt="">
+        </picture>
+        <div class="discrip discrip-wrap">
+          <div class="welcome-page__driver-max">632<span class="km"> км</span>
           </div>
-          <div class="welcome-page__footer">
-            <a class="welcome-page__footer-btn" href="#">заказать</a>
+          <div class="welcome-page__driver-go">запас хода
           </div>
-          <img class="arrow" src="IMG/Vector (2).png" alt="">
-       </section>
+        </div>
+      </div>
+    </div>
+    <div class="welcome-page__2">
+      <div class="welcome-page__button">
+        <div class="welcome-page__button-image"></div>
+        <div class="welcome-page__test-drive">
+          тест драйв
+        </div>
+      </div>
+      <div class="welcome-page__footer">
+        <a class="welcome-page__footer-btn" href="#">заказать</a>
+      </div>
+    </div>
+  </section>
+  <div class="arrow">
+    <img class="arrow-img" src="./IMG/Vector.png" alt="">
+  </div>
        <section class="main">
          <h3 class="main__title">Model S</h3>
-         <img class="main__pic" src="IMG/2013-tesla-model-s-cockpit.png" alt="">
+         <img class="main__pic" src="./IMG/2013-tesla-model-s-cockpit.png" alt="">
          <aside class="aside">
              <h4 class="aside__title">Будущее вождения</h4>
            </div>

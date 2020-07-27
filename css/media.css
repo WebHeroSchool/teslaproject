@@ -1,0 +1,397 @@
+@media (max-width: 1220px) {
+  .welcome-page {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1036px) {
+  .header__menu_link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .link__item {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 960px) {
+  .car {
+    background-position-x: -50px;
+  }
+}
+
+@media (max-width: 856px) {
+  .header__menu_link {
+    display: none;
+  }
+
+  .link__img {
+    margin-left: auto;
+  }
+
+  .welcome-page {
+    justify-content: center;
+  }
+
+  .welcome-page__1 {
+    margin-right: 25px;
+  }
+
+  .welcome-page__button {
+    margin-right: 15px;
+  }
+
+  .link-none {
+    display: none;
+  }
+
+  .welcome-page__block {
+    width: 50%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    box-sizing: border-box;
+    padding: 24px 33px 0 15px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .link-none {
+    display: none;
+  }
+
+  .link__img {
+    width: 35.23px;
+    height: 22.02px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .car__title {
+    margin-top: 80px;
+  }
+
+  .car__subtitle {
+    position: relative;
+    bottom: 10px;
+    padding-left: 16px;
+  }
+
+  .car {
+    background-size: 109%;
+    background-position: 15% 50%;
+  }
+
+  .car__tsl {
+    width: 91%;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+
+  .welcome-page {
+    margin-top: 104px;
+    display: block;
+  }
+
+  .welcome-page__block {
+    width: auto;
+  }
+
+  .welcome-page__1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .welcome-page__button-image {
+    background-image: url(../IMG/red.jpg);
+    width: 30px;
+    height: 30px;
+  }
+
+  .welcome-page__section {
+    margin-left: 0;
+    margin-right: 68px;
+  }
+
+  .welcome-page__speed-sec {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .welcome-page__driver-max {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .welcome-page__speed-car {
+    width: 120%;
+    padding: 18px 0 0 10px;
+  }
+
+  .discrip-mob {
+    margin-top: 2px;
+    margin-left: 38px;
+  }
+
+  .discrip-sek {
+    padding-left: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 8px;
+  }
+
+  .welcome-page__drive_img {
+    margin-right: 14px;
+    margin-top: 10px;
+  }
+
+  .km {
+    position: relative;
+    bottom: 7px;
+    left: 6px;
+  }
+
+  .welcome-page__driver-go {
+    margin-top: -2px;
+  }
+
+  .welcome-page__2 {
+    margin-top: 39px;
+    width: auto;
+    justify-content: center;
+    margin-left: 24px;
+  }
+
+  .welcome-page__test-drive {
+    font-size: 16px;
+    line-height: 20px;
+    color: #e51937;
+    margin-left: 15px;
+    margin-top: 3px;
+  }
+
+  .welcome-page__footer-btn {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background: #e51937;
+  }
+
+  .welcome-page__footer {
+    background: #e51937;
+    border: 0;
+    height: 55.21px;
+    margin-right: 0;
+  }
+
+  .welcome-page__button {
+    margin-top: 2%;
+    margin-right: 35px;
+  }
+
+  .arrow {
+    margin-top: 63px;
+  }
+}
+
+@media (max-width: 600px) {
+  .welcome-page__footer {
+    margin-right: 3%;
+  }
+
+  .welcome-page__button {
+    margin-left: 3%;
+  }
+
+  .welcome-page__block {
+    margin-left: 3%;
+  }
+}
+
+@media (max-width: 520px) {
+  .welcome-page__speed-sec {
+    font-size: 30px;
+  }
+
+  .welcome-page__driver-max {
+    font-size: 30px;
+  }
+
+  .discrip-mob {
+    margin-left: 20px;
+  }
+
+  .welcome-page__block {
+    margin-left: 0;
+  }
+
+  .discrip-sek {
+    bottom: 0;
+  }
+
+  .km {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 404px) {
+  .welcome-page__section {
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    margin: 5px 21px 0 2px;
+    padding: 0;
+  }
+
+  .header__img {
+    width: 84%;
+  }
+
+  .link__img {
+    width: 45%;
+    height: 50%;
+  }
+
+  .car__title {
+    font-size: 50px;
+    line-height: 61px;
+    margin-top: 30px;
+  }
+
+  .car__subtitle {
+    font-size: 10px;
+    line-height: 12px;
+    position: relative;
+    bottom: 2px;
+    padding-left: 2px;
+  }
+
+  .car {
+    background-size: 113%;
+    background-position: 30% 70%;
+  }
+
+  .car__tsl {
+    width: 95%;
+    position: relative;
+    left: 1px;
+    top: 40px;
+  }
+
+  .welcome-page__speed-sec {
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+  span {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .welcome-page__speed-km {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .welcome-page__driver-go {
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 0;
+  }
+
+  .welcome-page__driver-max {
+    font-size: 27px;
+    line-height: 33px;
+    padding-right: 18px;
+  }
+
+  .welcome-page {
+    margin-top: 65px;
+  }
+
+  .welcome-page__2 {
+    margin-left: 0;
+    margin-top: 45px;
+  }
+
+  .welcome-page__speed-car {
+    width: 84%;
+    padding-top: 8px;
+    padding-left: 2px;
+  }
+
+  .discrip-mob {
+    margin-top: 0;
+    margin-left: 3px;
+  }
+
+  .discrip-sek {
+    position: static;
+    padding-left: 4px;
+  }
+
+  .welcome-page__drive_img {
+    display: block;
+    margin-top: 0;
+    width: 55%;
+    margin-right: 0;
+    padding: 2px 0 0 1px;
+    position: relative;
+    left: 7px;
+  }
+
+  .km {
+    position: relative;
+    bottom: 0;
+    left: 3px;
+  }
+
+  .welcome-page__test-drive {
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 10px;
+  }
+
+  .welcome-page__button-image {
+    margin-bottom: 4px;
+    margin-right: 0;
+    width: 22px;
+    height: 22px;
+  }
+
+  .welcome-page__footer-btn {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .welcome-page__button {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 25px;
+  }
+
+  .welcome-page__footer {
+    margin-top: 0;
+    margin-right: 0;
+    width: 160px;
+    height: 40px;
+  }
+
+  .arrow {
+    margin-top: 29px;
+    margin-left: 4px;
+  }
+}
