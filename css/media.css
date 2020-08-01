@@ -399,7 +399,7 @@
 
 @media (max-width: 1360px) {
   .aside__footer {
-  padding-right: 26px;
+    padding-right: 26px;
   }
 }
 
@@ -454,6 +454,10 @@
 
   .aside__title {
     margin-top: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
   }
 
   .wrapp__aside {
@@ -464,13 +468,6 @@
   .wrapp__aside-title {
     margin-left: 34px;
     width: 45%;
-  }
-
-  .aside__title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 37px;
   }
 
   .aside__text {
@@ -532,8 +529,8 @@
   }
 
   .aside__footer a {
-   font-size: 16px;
-   line-height: 20px;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .aside__footer-img {

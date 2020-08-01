@@ -353,9 +353,9 @@ span {
 
 .aside-text__span {
   font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
   line-height: 24px;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .aside__display_span {
@@ -416,13 +416,6 @@ span {
   line-height: 43px;
 }
 
-.aside-text__span {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 600;
-  font-style: normal;
-}
-
 .aside__volum-span {
   display: block;
   width: 127px;
@@ -438,6 +431,7 @@ span {
   padding-right: 46px;
   align-items: center;
 }
+
 .aside__footer a {
   text-decoration: none;
   color: #fff;
