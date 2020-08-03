@@ -803,6 +803,7 @@
 
   .section__aside-title {
     padding-left: 0;
+  }
 }
 
 @media (max-width: 375px) {
