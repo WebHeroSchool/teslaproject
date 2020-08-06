@@ -728,7 +728,7 @@
 
 @media (max-width: 1023px) {
   .aside__footer-btn {
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 
