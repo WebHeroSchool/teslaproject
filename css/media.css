@@ -695,6 +695,10 @@
 }
 
 @media (max-width: 1076px) {
+  .block__img {
+    width: 100%;
+  }
+
   .stars__img {
     margin-left: 0;
   }
