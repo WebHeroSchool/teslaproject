@@ -461,7 +461,7 @@ span {
 .aside__footer-btn {
   display: flex;
   align-items: center;
-  transition: all .3s;
+  transition: all 0.3s;
   justify-content: left;
   margin-right: 22px;
   margin-left: -5px;
