@@ -449,7 +449,7 @@ span {
   width: 160px;
   height: 40px;
   padding-top: 9px;
-  transition: all .3s;
+  transition: all 0.3s;
   background-color: #e51937;
 }
 
@@ -483,7 +483,7 @@ span {
   max-width: 1440px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;;
+  justify-content: space-between;
   position: relative;
   align-items: center;
 }
@@ -593,7 +593,7 @@ span {
 }
 
 .block {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -607,7 +607,7 @@ span {
   width: 106%;
 }
 
-.inner-aside{
+.inner-aside {
   padding: 51px 55px 60px 56px;
 }
 

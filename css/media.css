@@ -628,9 +628,6 @@
     padding: 0;
   }
 
-  .aside__footer-btn {
-  }
-
   .wrapper-stars {
     padding: 0 15px 0 15px;
   }
@@ -697,7 +694,6 @@
   }
 }
 
-
 @media (max-width: 1076px) {
   .stars__img {
     margin-left: 0;
@@ -725,8 +721,8 @@
     font-size: 14px;
   }
 
-.star__item span {
-  left: 53px;
+  .star__item span {
+    left: 53px;
   }
 }
 
@@ -784,9 +780,9 @@
   }
 
   .bg-block {
-  height: 29%;
-  width: 84%;
-  right: 50px;
+    height: 29%;
+    width: 84%;
+    right: 50px;
   }
 }
 
